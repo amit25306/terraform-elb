@@ -18,7 +18,7 @@ variable "aws_key" {
     default = "SG_Key_Devops1"
 }
 
-varaible "aws_ami" {
+variable "aws_ami" {
     description = "ami id"
     default = "ami-0d9462a653c34dab7"    
 }

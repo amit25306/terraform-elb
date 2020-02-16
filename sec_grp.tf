@@ -1,11 +1,11 @@
-resource "aws_security_group" "sec-grp" {
+resource "aws_security_group" "SG-Devops1" {
 
-    name = "sec-grp"
+    name = "SG-Devops1"
 
     vpc_id =  "${var.aws_vpc}"
 
     tags = {
-        Name = "sec-grp"
+        Name = "SG-Devops1"
     }
 }
 

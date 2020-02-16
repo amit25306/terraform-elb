@@ -1,5 +1,5 @@
 resource "aws_instance" "linux_vm" {
-    ami                         = "${var.aws_id}"
+    ami                         = "${var.aws_ami}"
     availability_zone           = "ap-south-1b"
     ebs_optimized               = false
     instance_type               = "t2.micro"
